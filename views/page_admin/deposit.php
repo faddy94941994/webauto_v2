@@ -94,15 +94,15 @@
                             <span class="d-none d-lg-inline-flex"><?php echo $_SESSION["name_ad"]; ?></span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
-						<a href="#"  class="dropdown-item">ตั้งค่า</a>
-						<a href="/admin/settingweb" class="dropdown-item">เว็บไซต์</a>
-						<a href="/admin/settingspinner" class="dropdown-item">วงล้อ</a>
-						<a href="/admin/settingbank" class="dropdown-item">ธนาคาร</a>
-						<a a href="/admin/settingstaff" class="dropdown-item">พนักงาน</a>
-						<a href="/admin/settingpromotion" class="dropdown-item">โปรโมชั่น</a>
-						<a href="/admin/logadmin" class="dropdown-item">ประวัติเข้าใช้งาน</a>
-						<a href="/admin/settingannounce" class="dropdown-item">ประกาศ</a>
-                        <a href="javascript:void(0)" class="check-out" class="dropdown-item">Log Out</a>
+                        <a href="#"  class="dropdown-item">ตั้งค่า</a>
+                        <a href="/admin/settingweb" class="dropdown-item">เว็บไซต์</a>
+                        <a href="/admin/settingspinner" class="dropdown-item">วงล้อ</a>
+                        <a href="/admin/settingbank" class="dropdown-item">ธนาคาร</a>
+                        <a a href="/admin/settingstaff" class="dropdown-item">พนักงาน</a>
+                        <a href="/admin/settingpromotion" class="dropdown-item">โปรโมชั่น</a>
+                        <a href="/admin/logadmin" class="dropdown-item">ประวัติเข้าใช้งาน</a>
+                        <a href="/admin/settingannounce" class="dropdown-item">ประกาศ</a>
+                        <a href="javascript:void(0)" class="check-out" class="dropdown-item" ><img src="https://cdn.discordapp.com/attachments/874026126513692685/1154588220399566868/logout.png" alt="logout">Logout</a>
                         </div>
                     </div>
                 </div>

@@ -1787,7 +1787,7 @@ pre code {
     font-weight: 400;
     line-height: 1.5;
     color: #ddd;
-    background-color: #300101;
+    background-color: #333449;
     background-clip: padding-box;
     border: 1px solid hsla(0, 0%, 90.2%, .75);
     border-radius: 30px;
@@ -2424,8 +2424,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745
+    background-color: #ef610d;
+    border-color: #000000
 }
 
 .btn-success:hover {
@@ -18280,7 +18280,7 @@ body,
 html {
     height: 100%;
     font-family: Kanit, Helvetica Neue, Helvetica, Arial, sans-serif;
-    background-color: #000000
+    background-color: #12111a
 }
 
 b,
@@ -18677,7 +18677,7 @@ strong {
         padding: .5rem;
         font-size: 1rem;
         color: #fff;
-        background: #0a673c;
+        background: #1e1631;
         text-align: center;
         box-shadow: none
     }
@@ -19279,7 +19279,7 @@ strong {
     z-index: 6;
     width: 100%;
     height: 75px;
-    background: linear-gradient(180deg, #000000e8, #000000);
+    background: linear-gradient(180deg, #000000e8, #282828);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -19440,7 +19440,7 @@ strong {
     color: #f2f2f2;
     transition: .3s;
     padding: .5rem;
-    background: #000000;
+    background: #ff9d0a;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px
 }
@@ -19663,7 +19663,7 @@ strong {
     .x-logged .-profile-container .-inner-wrapper {
         margin-right: -1.5rem;
         padding: 3px 1.75rem 3px .5rem;
-        background: #0a673c;
+        background: #1e1631;
         border-radius: 8px
     }
 }
@@ -19876,7 +19876,7 @@ strong {
     height: 100%;
     margin-right: 0;
     padding: 1rem 1.25rem;
-    background: linear-gradient(180deg, #00af9d, #00af9d);
+    background: linear-gradient(180deg, #060514, #2f2e3a);
     z-index: 60;
     overflow: auto;
     border-radius: 20px 0 0 20px
@@ -20793,7 +20793,7 @@ strong {
     z-index: 2;
     height: 70px;
     padding-bottom: 6px;
-    background: linear-gradient(182deg, #8b0000, #220000);
+    background: linear-gradient(182deg, #070708, #251b3f);
     transition: -webkit-filter .2s;
     transition: filter .2s;
     transition: filter .2s, -webkit-filter .2s
@@ -21214,7 +21214,7 @@ strong {
 
 @media (max-width:991.98px) {
     .x-feed-news-header .-feed-news-inner-wrapper {
-        background-color: #0a673c;
+        background-color: #1e1631;
         border-radius: 0
     }
 }
@@ -21847,7 +21847,7 @@ strong {
     font-size: 1rem;
     font-weight: 300;
     color: #fff;
-    background: linear-gradient(180deg, #026ace, #002d59)
+    background: linear-gradient(180deg, #ed0808, #ed0937)
 }
 
 @media (min-width:992px) {
@@ -21860,7 +21860,7 @@ strong {
     font-size: 1rem;
     font-weight: 300;
     color: #fff;
-    background: linear-gradient(180deg, #b22b57, #7d213e)
+    background: linear-gradient(180deg, #2f2e35, #323235)
 }
 
 @media (min-width:992px) {
@@ -25523,7 +25523,7 @@ strong {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: #000000;
+    background: #100F0F;
     box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
     border-radius: 14px;
     border: none;
@@ -25572,7 +25572,7 @@ strong {
 }
 
 .x-menu-provider .nav-link.active {
-    background: #0a673c;
+    background: #ff6000;
     box-shadow: 0 4px 4px rgba(0, 0, 0, .25)
 }
 
@@ -28585,9 +28585,9 @@ strong {
 }
 
 .x-modal .-modal-content {
-    background: #000000;
+    background: #090a12;
     border-radius: 15px;
-    border: 2px solid #cfcfcf;
+    border: 2px solid #202023;
     box-shadow: none
 }
 
@@ -28657,7 +28657,7 @@ strong {
     border-radius: 9px;
     font-weight: 300;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
-    background: linear-gradient(180deg, #fe538b, #851a20);
+    background: linear-gradient(180deg, #e95f0a, #f37700);
     transition: all .2s ease-in-out
 }
 
@@ -28709,7 +28709,7 @@ strong {
 }
 
 .x-modal .-modal-main-account .-modal-content .-modal-body .-layout-account {
-    background-color: #0d2547;
+    background-color: #1d1d1e;
     width: 100%;
     padding: 1rem 1.5rem 1.5rem
 }
@@ -29043,7 +29043,7 @@ strong {
 }
 
 .x-modal.-v2 .close {
-    color: #566b8b;
+    color: #ffffff;
     text-shadow: none
 }
 
@@ -29061,7 +29061,7 @@ strong {
 }
 
 .x-modal.-v2 .-modal-content {
-    background: #000000;
+    background: #1e1d1e;
     border: none
 }
 
@@ -30322,7 +30322,7 @@ strong {
     margin-bottom: 1rem;
     padding: .75rem 2.5rem;
     color: #fff;
-    background: linear-gradient(180deg, #fe538b, #851a20)
+    background: linear-gradient(180deg, #c90000, #ed0a17)
 }
 
 @media (min-width:992px) {

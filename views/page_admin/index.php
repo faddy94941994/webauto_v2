@@ -103,7 +103,7 @@ if(!isset($_SESSION['id_ad'])){
 						<a href="/admin/settingpromotion" class="dropdown-item">โปรโมชั่น</a>
 						<a href="/admin/logadmin" class="dropdown-item">ประวัติเข้าใช้งาน</a>
 						<a href="/admin/settingannounce" class="dropdown-item">ประกาศ</a>
-                        <a href="javascript:void(0)" class="check-out" class="dropdown-item">Log Out</a>
+                        <a href="javascript:void(0)" class="check-out" class="dropdown-item" ><img src="https://cdn.discordapp.com/attachments/874026126513692685/1154588220399566868/logout.png" alt="logout">Logout</a>
                         </div>
                     </div>
                 </div>
@@ -288,20 +288,20 @@ while($row = mysqli_fetch_array($load_date_deposit)) {
                             <div id="calender"></div>
                         </div>
                     </div>
-                 
-        		
-		
             <!-- Recent Sales End -->
+
+			<hr>
+
  <!-- Sales Chart Start -->
  <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary text-center rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h4 class="mb-0">เครดิตเอเย่นต์</h4>
+                                <h4 class="mb-0">เครดิตคงเหลือ Agent :</h4>
 							</div>
 							<div class="col">
-							<h5 class="text-white d-none d-sm-block d-md-block">Betflik</h5>
+							<h5 class="text-white d-none d-sm-block d-md-block">BETFLIX</h5>
 								<h4 class="text-white" id="credit_ufa">0</h4> <span class="progress-description text-white d-sm-none d-md-none">เครดิตคงเหลือ </span> 
                             </div>
                         </div>
@@ -309,7 +309,7 @@ while($row = mysqli_fetch_array($load_date_deposit)) {
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary text-center rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h4 class="mb-0">รายการธนาคาร</h4>
+                                <h4 class="mb-0">ยอดเงินคงเหลือบัญชี</h4>
                             </div>
                             <div class="row dc-gutters" >
 							<?php
@@ -321,8 +321,8 @@ while($row = mysqli_fetch_array($load_date_deposit)) {
 			<div class="col-lg-3 col-6">
 				<div class="info-box bg-purple"> <span class="info-box-icon bg-transparent text-white"><i class="fas fa-university"></i></span>
 					<div class="info-box-content">
-						<h6 class="text-white d-none d-sm-block d-md-block">ธนาคารไทยพาณิชย์</h6>
-						<h4 class="text-white" id="credit_scb">0</h4> <span class="progress-description text-white d-sm-none d-md-none">ธนาคารไทยพาณิชย์ </span> </div>
+						<h6 class="text-white d-none d-sm-block d-md-block">ไทยพาณิชย์</h6>
+						<h4 class="text-white" id="credit_scb">0</h4> <span class="progress-description text-white d-sm-none d-md-none">ไทยพาณิชย์ </span> </div>
 				</div>
 			</div>
 			<?php } ?>
@@ -333,14 +333,14 @@ while($row = mysqli_fetch_array($load_date_deposit)) {
 			if($num_kbank > 0){
 			?>
 			<div class="col">
-				<div class="info-box bg-green"> <span class="info-box-icon bg-transparent text-white"></i></span>
+				<div class="info-box bg-green"> <span class="info-box-icon bg-transparent text-white"><i class="fas fa-university"></i></i></span>
 					<div class="info-box-content">
 						<h5 class="mb-0">กสิกรไทย</h5>
-						<h4 class="text-white" id="credit_kbank">0</h4> <span class="progress-description text-white d-sm-none d-md-none">ธนาคารกสิกรไทย </span> </div>
+						<h4 class="text-white" id="credit_kbank">0</h4> <span class="progress-description text-white d-sm-none d-md-none">กสิกรไทย </span> </div>
 				</div>
 			</div>
 			<?php } ?>
-			
+
 			<?php
 			$sqltruewallet = "SELECT * FROM bank WHERE name_bank = 'ทรูวอเล็ต'";
 			$load_date_truewallet = $class_admin->load_date_sql($sqltruewallet);
@@ -348,14 +348,13 @@ while($row = mysqli_fetch_array($load_date_deposit)) {
 			if($num_truewallet > 0){
 			?>
 			<div class="col">
-				<div class="info-box bg-yellow"> <span class="info-box-icon bg-transparent text-white"></i></span>
+				<div class="info-box bg-yellow"> <span class="info-box-icon bg-transparent text-white"><i class='fas fa-wallet'></i></span>
 					<div class="info-box-content">
-						<h5 class="text-white d-none d-sm-block d-md-block">ทรูวอเล็ต</h5>
-						<h4 class="text-white" id="credit_true">0</h4> <span class="progress-description text-white d-sm-none d-md-none">ทรูวอเล็ต </span> </div>
+						<h5 class="text-white d-none d-sm-block d-md-block">ทรูมันนี่วอลเล็ท</h5>
+						<h4 class="text-white" id="credit_true">0</h4> <span class="progress-description text-white d-sm-none d-md-none">ทรูมันนี่วอลเล็ท </span> </div>
 				</div>
 			</div>
 			<?php } ?>
-			
 			<?php
 			$sqlsaving = "SELECT * FROM bank WHERE name_bank = 'ธนาคารออมสิน'";
 			$load_date_saving = $class_admin->load_date_sql($sqlsaving);
@@ -391,6 +390,7 @@ while($row = mysqli_fetch_array($load_info_bank)) {
     </div>	
 </div>
 
+<hr>
 
         <div class="col col-xl">
 		<div class="bg-secondary rounded p-4">
@@ -453,11 +453,11 @@ while($row = mysqli_fetch_array($load_info_bank)) {
                 <div class="bg-secondary rounded-top p-4">
                     <div class="row">
                         <div class="col-12 col-sm-6 text-center text-sm-start">
-                            &copy; <a href="#">Betingsoft</a>, All Right Reserved. 
+                            &copy; <a href="#">Auto Gambling System Manager</a> All Right Reserved. 
                         </div>
                         <div class="col-12 col-sm-6 text-center text-sm-end">
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a href="https://betiingsoft.com">BetingSoft</a>
+                            <!-- Designed By <a href="https://betiingsoft.com">BetingSoft</a>-->
                         </div>
                     </div>
                 </div>
@@ -474,6 +474,8 @@ while($row = mysqli_fetch_array($load_info_bank)) {
 
 	
 </body>
+<!-- add custom script -->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <script type="text/javascript">
 $(document).ready(function(){
 var todayshow = '';	

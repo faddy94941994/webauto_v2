@@ -120,7 +120,7 @@ $('.treeview a[href="/admin/withdraw"]').parent().addClass("active").closest('.t
 						<a href="/admin/settingpromotion" class="dropdown-item">โปรโมชั่น</a>
 						<a href="/admin/logadmin" class="dropdown-item">ประวัติเข้าใช้งาน</a>
 						<a href="/admin/settingannounce" class="dropdown-item">ประกาศ</a>
-                        <a href="javascript:void(0)" class="check-out" class="dropdown-item">Log Out</a>
+                        <a href="javascript:void(0)" class="check-out" class="dropdown-item" ><img src="https://cdn.discordapp.com/attachments/874026126513692685/1154588220399566868/logout.png" alt="logout">Logout</a>
                         </div>
                     </div>
                 </div>

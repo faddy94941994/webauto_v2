@@ -49,9 +49,11 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    /*color: #6C7293;
-    background-color: #000;*/
-	background-image: url("https://cdn.discordapp.com/attachments/874026126513692685/1154425035847635074/f43e2b2e7dcb3e0d8dfbdff6f445ace1.gif");
+    color: #6C7293;
+    background-color: #2e2b2b;
+        width: 100%;
+        height: 1258;
+
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -233,7 +235,7 @@ sup {
 }
 
 a {
-    color: #EB1616;
+    color: #fffefe;
     text-decoration: none
 }
 
@@ -335,7 +337,8 @@ th {
 }
 
 label {
-    display: inline-block
+    display: inline-block;
+    color: #ffffff;
 }
 
 button {
@@ -2003,7 +2006,7 @@ progress {
     --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
     width: 100%;
     margin-bottom: 1rem;
-    color: #6C7293;
+    color: #ffffff;
     vertical-align: top;
     border-color: #000
 }
@@ -2235,8 +2238,8 @@ progress {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #6C7293;
-    background-color: #000;
+    color: #6708f9;
+    background-color: #e3d8d8;
     background-clip: padding-box;
     border: 1px solid #000;
     appearance: none;
@@ -3083,21 +3086,21 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #EB1616;
-    border-color: #EB1616
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #c81313;
-    border-color: #bc1212
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #fff;
-    background-color: #c81313;
-    border-color: #bc1212;
+    background-color: #df620a;
+    border-color: #f78901;
     box-shadow: 0 0 0 .25rem rgba(238, 57, 57, 0.5)
 }
 
@@ -3107,8 +3110,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #bc1212;
-    border-color: #b01111
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -3116,14 +3119,14 @@ fieldset:disabled .btn {
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(238, 57, 57, 0.5)
+    box-shadow: 0 0 0 .25rem rgba(243, 100, 4, 0.5)
 }
 
 .btn-primary:disabled,
 .btn-primary.disabled {
     color: #fff;
-    background-color: #EB1616;
-    border-color: #EB1616
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-secondary {
@@ -3308,22 +3311,22 @@ fieldset:disabled .btn {
 
 .btn-danger {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-danger:hover {
     color: #fff;
-    background-color: #bb2d3b;
-    border-color: #b02a37
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-check:focus+.btn-danger,
 .btn-danger:focus {
     color: #fff;
-    background-color: #bb2d3b;
-    border-color: #b02a37;
-    box-shadow: 0 0 0 .25rem rgba(225, 83, 97, 0.5)
+    background-color: #df620a;
+    border-color: #f78901;
+    box-shadow: 0 0 0 .25rem rgba(225, 135, 83, 0.5)
 }
 
 .btn-check:checked+.btn-danger,
@@ -3332,8 +3335,8 @@ fieldset:disabled .btn {
 .btn-danger.active,
 .show>.btn-danger.dropdown-toggle {
     color: #fff;
-    background-color: #b02a37;
-    border-color: #a52834
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-check:checked+.btn-danger:focus,
@@ -3341,14 +3344,14 @@ fieldset:disabled .btn {
 .btn-danger:active:focus,
 .btn-danger.active:focus,
 .show>.btn-danger.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(225, 83, 97, 0.5)
+    box-shadow: 0 0 0 .25rem rgba(225, 152, 83, 0.5)
 }
 
 .btn-danger:disabled,
 .btn-danger.disabled {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-light {
@@ -3442,19 +3445,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-    color: #EB1616;
-    border-color: #EB1616
+    color: #ffffff;
+    border-color: #f9f9f9;
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #EB1616;
-    border-color: #EB1616
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-check:focus+.btn-outline-primary,
 .btn-outline-primary:focus {
-    box-shadow: 0 0 0 .25rem rgba(235, 22, 22, 0.5)
+    box-shadow: 0 0 0 .25rem rgba(235, 107, 22, 0.5)
 }
 
 .btn-check:checked+.btn-outline-primary,
@@ -3463,8 +3466,8 @@ fieldset:disabled .btn {
 .btn-outline-primary.active,
 .btn-outline-primary.dropdown-toggle.show {
     color: #fff;
-    background-color: #EB1616;
-    border-color: #EB1616
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-check:checked+.btn-outline-primary:focus,
@@ -3472,12 +3475,12 @@ fieldset:disabled .btn {
 .btn-outline-primary:active:focus,
 .btn-outline-primary.active:focus,
 .btn-outline-primary.dropdown-toggle.show:focus {
-    box-shadow: 0 0 0 .25rem rgba(235, 22, 22, 0.5)
+    box-shadow: 0 0 0 .25rem rgba(235, 107, 22, 0.5)
 }
 
 .btn-outline-primary:disabled,
 .btn-outline-primary.disabled {
-    color: #EB1616;
+    color: #eb7616;
     background-color: transparent
 }
 
@@ -3642,14 +3645,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-danger {
-    color: #dc3545;
-    border-color: #dc3545
+    color: #dc7235;
+    border-color: #dc7235
 }
 
 .btn-outline-danger:hover {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-check:focus+.btn-outline-danger,
@@ -3663,8 +3666,8 @@ fieldset:disabled .btn {
 .btn-outline-danger.active,
 .btn-outline-danger.dropdown-toggle.show {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #df620a;
+    border-color: #f78901
 }
 
 .btn-check:checked+.btn-outline-danger:focus,
@@ -3677,7 +3680,7 @@ fieldset:disabled .btn {
 
 .btn-outline-danger:disabled,
 .btn-outline-danger.disabled {
-    color: #dc3545;
+    color: #dc8e35;
     background-color: transparent
 }
 
@@ -8290,7 +8293,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #EB1616 !important
+    color: #ffffff !important
 }
 
 .text-secondary {
@@ -8326,7 +8329,7 @@ fieldset:disabled .btn {
 }
 
 .text-body {
-    color: #6C7293 !important
+    color: #ffffff !important
 }
 
 .text-muted {
@@ -8350,7 +8353,7 @@ fieldset:disabled .btn {
 }
 
 .bg-secondary {
-    background-color: #191C24 !important
+    background-color: #12111a !important
 }
 
 .bg-success {

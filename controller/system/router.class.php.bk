@@ -68,19 +68,8 @@ class router{
 
 		
 		if (empty($_SESSION['id_mb'])) {
-
+			
 			$this->router->map( "GET", "/", function(){
-				$this->loadpage("login");
-			});
-			$this->router->map( "GET", "/login", function(){
-				$this->loadpage("login");
-			});
-			
-			$this->router->map( "GET", "/login", function(){
-				$this->loadpage("login");
-			});			
-			
-			/*$this->router->map( "GET", "/", function(){
 				$this->loadpage("home");
 			});
 			$this->router->map( "GET", "/home", function(){
@@ -88,12 +77,12 @@ class router{
 			});
 			$this->router->map( "GET", "/login", function(){
 				$this->loadpage("login");
-			});*/
+			});
 			$this->router->map( "GET", "/register", function(){
 				$this->loadpage("register");
 			});
-			$this->router->map( "GET", "/promotions", function(){
-				$this->loadpage("promotions");
+			$this->router->map( "GET", "/promotion", function(){
+				$this->loadpage("promotion");
 			});
 			$this->router->map( "GET", "/verify", function(){
 				$this->loadpage("verify");
@@ -343,8 +332,8 @@ class router{
 			$this->router->map( "GET", "/cashback", function(){
 				$this->loadpage("cashback");
 			});
-			$this->router->map( "GET", "/promotions", function(){
-				$this->loadpage("promotions");
+			$this->router->map( "GET", "/promotion", function(){
+				$this->loadpage("promotion");
 			});
 			
 			//=================API===================
@@ -774,7 +763,7 @@ class router{
 		}else{
 			Self::htmlheader();
 		
-			if($Get_Setting->status_web == '&#1072;&#1105;&#1087;&#1111;&#1029;&#1072;&#1105;&#1169;&#1072;&#1105;&#1087;&#1111;&#1029;' && $page != 'home' && $page != 'promotions' ){
+			if($Get_Setting->status_web == '&#1072;&#1105;&#1087;&#1111;&#1029;&#1072;&#1105;&#1169;&#1072;&#1105;&#1087;&#1111;&#1029;' && $page != 'home' && $page != 'promotion' ){
 				require_once "views/page/CloseWeb.php";
 			}else{
 				require_once "views/page/" . $page . ".php";

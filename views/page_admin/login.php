@@ -73,20 +73,21 @@
                     <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <a href="index.html" class="">
-                                <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Backend System Manager</h3>
+                                <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Backend Manager</h3>
                             </a>
                             <h3>ระบบหลังบ้าน</h3>
                         </div>
                         <div class="form-floating mb-3">
 						<input class="form-control" type="text" id="username_ad"  placeholder="Username">
-                            <label for="floatingInput">ยูสเซอร์เนม</label>
+                            <label for="floatingInput" style="color:#353641";>ยูสเซอร์เนม</label>
                         </div>
                         <div class="form-floating mb-4">
 						<input class="form-control" type="password" id="password_ad" placeholder="Password">
-                            <label for="floatingPassword">รหัสผ่าน</label>
+                            <label for="floatingPassword" style="color:#353641";>รหัสผ่าน</label>
                         </div>
                         <div class="d-flex align-items-center justify-content-between mb-4">
                             <div class="form-check">
+
                              
                             </div>
                             <a href="https://t.me/a2wjon">ลืมรหัสผ่าน</a>
