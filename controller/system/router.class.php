@@ -464,6 +464,11 @@ class router{
 			$this->router->map( "GET", "/admin/settingspinner", function(){
 				$this->loadpage_admin("settingspinner");
 			});
+			/* add api betflix start */
+			$this->router->map( "GET", "/admin/settingapikey", function(){
+				$this->loadpage_admin("settingapikey");
+			});			
+			/* add api betflix end */
 			$this->router->map( "GET", "/admin/settingbank", function(){
 				$this->loadpage_admin("settingbank");
 			});

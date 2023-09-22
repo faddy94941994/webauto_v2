@@ -98,6 +98,7 @@ if(!isset($_SESSION['id_ad'])){
 						<a href="#"  class="dropdown-item">ตั้งค่า</a>
 						<a href="/admin/settingweb" class="dropdown-item">เว็บไซต์</a>
 						<a href="/admin/settingspinner" class="dropdown-item">วงล้อ</a>
+						<!--<a href="/admin/settingapikey" class="dropdown-item">API BETFLIX</a>-->
 						<a href="/admin/settingbank" class="dropdown-item">ธนาคาร</a>
 						<a a href="/admin/settingstaff" class="dropdown-item">พนักงาน</a>
 						<a href="/admin/settingpromotion" class="dropdown-item">โปรโมชั่น</a>

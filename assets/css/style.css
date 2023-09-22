@@ -3048,8 +3048,8 @@ fieldset:disabled .btn {
 
 .btn-success {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #eb0e0e;
+  border-color: #e72c0b;
 }
 
 .btn-success:hover {
@@ -3087,8 +3087,8 @@ fieldset:disabled .btn {
 
 .btn-info {
   color: #000;
-  background-color: #17A2B8 !important;
-  border-color: #17A2B8 !important;
+  background-color: #14d73f !important;
+  border-color: #177b0b !important;
 }
 
 .btn-info:hover {
@@ -13335,7 +13335,7 @@ a.card {
 }
 
 .dark-mode .btn-light {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(255 255 255 / 50%);
   color: var(--finwallapp-theme-text);
   border-color: rgba(0, 0, 0, 0.15);
 }
