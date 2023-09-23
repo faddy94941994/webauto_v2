@@ -389,11 +389,11 @@ $css_tag = date('YmdHhi');
                          $resultpro = $class->Query_Mysqli($querypro);
                         ?>
                         <?php foreach ($resultpro as $rowpro){ ?>
-                                 <div class="-slide-inner-wrapper -slick-item">
+                            <!--<div class="-slide-inner-wrapper -slick-item">
                                     <a href="<?php echo $Get_Setting->lineoa; ?>" class="-link-wrapper">
                                     <img src="slip/<?php echo $rowpro['fileupload_pro']; ?>" alt="" class="img-fluid -slick-item -item-1" width="1200" height="590">
                                     </a>
-                                 </div>
+                                </div>-->
                                  
 <?php } ?>
 

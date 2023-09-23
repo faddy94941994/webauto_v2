@@ -48,7 +48,8 @@
     </footer>
 <?php }else{ ?>
 
-	<footer class="footer">
+	<!-- Disable footer in line -->
+<!--<footer class="footer">
         <div class="container">
             <ul class="nav nav-pills nav-justified">
                 <li class="nav-item">
@@ -93,6 +94,7 @@
                 </li>
             </ul>
         </div>
-    </footer>
+    </footer> -->
+	<!-- Disable footer end line -->
 
 <?php } ?>	

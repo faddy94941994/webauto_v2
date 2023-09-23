@@ -1,6 +1,6 @@
 
-                              <div class="-games-index-page">
-                                 <h2 class="-heading-sub-title"><?php echo $Get_Setting->name_web; ?> คาสิโนออนไลน์เต็มรูปแบบ ตื่นตาตื่นใจไปกับทุกการเดิมพัน</h2>
+                            <div class="-games-index-page">
+                               <h2 class="-heading-sub-title"><?php echo $Get_Setting->name_web; ?> คาสิโนออนไลน์เต็มรูปแบบ ตื่นตาตื่นใจไปกับทุกการเดิมพัน</h2>
                                  <div class="x-category-provider js-game-scroll-container js-game-container">
                                     <div class="-games-list-container container">
                                        <div class="x-hot-games-container">

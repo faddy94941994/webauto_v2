@@ -92,7 +92,7 @@
             </div>
             <div>
                <p class="mb-0">
-                  Copyright © 2021 <?php echo $Get_Setting->name_web; ?> All Rights Reserved.
+                  Copyright © 2023 <?php echo $Get_Setting->name_web; ?> All Rights Reserved.
                </p>
             </div>
          </div>

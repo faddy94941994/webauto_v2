@@ -1,5 +1,4 @@
-﻿
-         <div class="x-promotion-index">
+﻿         <div class="x-promotion-index">
             <div class="container">
                <div class="row">
                   <div class="col-12">
@@ -27,7 +26,7 @@
                            <source  srcset="/slip/<?php echo $rowpro['fileupload_pro']; ?>">
                            <source srcset="/slip/<?php echo $rowpro['fileupload_pro']; ?>">
                            <img alt="บาคาร่า คาสิโน สล็อตออนไลน์ promotion cover image" class="-cover-img img-fluid" width="200" height="200" src="/slip/<?php echo $rowpro['fileupload_pro']; ?>">
-                        </picture>
+                        </picture>                        
                      </a>
                   </div>
 
@@ -36,6 +35,7 @@
                   <div class="col-12">
                      <div class="x-page-title-component ">
                         <div class="-inner-wrapper">
+                           <br>
                            <center><h1 class="-title">รายละเอียดโปรโมชั่น</h1>
                         - ชื่อโปรโมชั่น : <font color="#fff200"><?php echo $rowpro['name_pro']; ?></font><br>
          - ลักษณะโปรโมชั่น : <font color="#fff200"><?php echo $rowpro['time_pro']; ?></font><br>
@@ -98,7 +98,7 @@ if ($rowpro['bonus_pro']!=0) {
                   </div>
                </div>
             </div> -->
-            <div class="-provider-wrapper">
+        <!--<div class="-provider-wrapper">
                <div class="px-3">
                   <div class="x-contact-directly" data-animatable="fadeInUp" data-delay="100">
                      <div class="-text-wrapper -empty">
@@ -113,10 +113,10 @@ if ($rowpro['bonus_pro']!=0) {
                   </div>
                </div>
             </div>
-         </div>
+         </div>-->
          <div class="-footer-bottom-wrapper">
             <div>
-               <a href="term-and-condition-1.html" target="_blank" class="-term-btn">
+               <a href="" target="_blank" class="-term-btn">
                Terms and Conditions
                </a>
             </div>

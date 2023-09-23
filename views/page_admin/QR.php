@@ -121,7 +121,7 @@ $images = scandir($dirname);
 $ignore = array(".", "..");
 foreach ($images as $curimg) {
 	if (!in_array($curimg, $ignore)) {
-		$showimg = "<img class='card-img-top img-responsive' src='/assets/img/popup/0123.jpg' style='max-width: 100%;' alt='Card image cap'>";
+		$showimg = "<img class='card-img-top img-responsive' src='https://cdn.discordapp.com/attachments/1155011620196589640/1155011676991664159/check-slip.png' style='max-width: 100%;' alt='Card image cap'>";
 	}
 }
 ?>

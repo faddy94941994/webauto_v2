@@ -92,7 +92,7 @@ class router{
 			$this->router->map( "GET", "/register", function(){
 				$this->loadpage("register");
 			});
-			$this->router->map( "GET", "/promotions", function(){
+			$this->router->map( "GET", "/promotion", function(){
 				$this->loadpage("promotions");
 			});
 			$this->router->map( "GET", "/verify", function(){
@@ -779,7 +779,7 @@ class router{
 		}else{
 			Self::htmlheader();
 		
-			if($Get_Setting->status_web == '&#1072;&#1105;&#1087;&#1111;&#1029;&#1072;&#1105;&#1169;&#1072;&#1105;&#1087;&#1111;&#1029;' && $page != 'home' && $page != 'promotions' ){
+			if($Get_Setting->status_web == '&#1072;&#1105;&#1087;&#1111;&#1029;&#1072;&#1105;&#1169;&#1072;&#1105;&#1087;&#1111;&#1029;' && $page != 'home' && $page != 'promotion' ){
 				require_once "views/page/CloseWeb.php";
 			}else{
 				require_once "views/page/" . $page . ".php";
